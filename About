@@ -1,0 +1,9 @@
+Components used:
+1. Arduino Nano board
+2. ESP8266 wifi module
+3. PIR sensor
+4. Gas detection sensor
+5. DC motor 
+6. L293D motor driver IC
+
+This project uses two sensors(PIR and gas detector) collects data and upload it to website thingspeak.com where it will be visualised. PIR sensor detects presence of person in its premises and works fan according to that. Gas detector constantly checks for gas leakages and if found a alarm light connected will get glow, At the same time these two sensor values are uploaded to thingspeak website.
